@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <script src='calc.js'></script>
+    <link rel="sortcut icon" href="file:///C:/Users/felip/Desktop/Projeto/Minha%20calculadora/img/calc.icone.png">
+    <title>
+        Calculadora Digital
+    </title>
+    <link href="projeto.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class=calcbox>
+        <img src="file:///C:/Users/felip/Desktop/Projeto/Minha%20calculadora/img/calc.icone.png" class="icone"> Calculadora
+    </div>
+
+    <div class=resultado>
+        <input class=tela type="text" readonly size="17" id="display">
+    </div>
+
+    <form class=estrutura>
+        <div class=teclas>
+            <p>
+                <input type="button" class="botao operacoes1" value="/" onclick='populaTela("/")'>
+            </p>
+            <p>
+                <input type="button" class="botao numero" value="7" onclick='populaTela("7")'>
+                <input type="button" class="botao numero" value="8" onclick='populaTela("8")'>
+                <input type="button" class="botao numero" value="9" onclick='populaTela("9")'>
+                <input type="button" class="botao operacoes" value="*" onclick='populaTela("*")'>
+            </p>
+            <p>
+                <input type="button" class="botao numero" value="4" onclick='populaTela("4")'>
+                <input type="button" class="botao numero" value="5" onclick='populaTela("5")'>
+                <input type="button" class="botao numero" value="6" onclick='populaTela("6")'>
+                <input type="button" class="botao operacoes" value="-" onclick='populaTela("-")'>
+            </p>
+            <p>
+                <input type="button" class="botao numero" value="1" onclick='populaTela("1")'>
+                <input type="button" class="botao numero" value="2" onclick='populaTela("2")'>
+                <input type="button" class="botao numero" value="3" onclick='populaTela("3")'>
+                <input type="button" class="botao operacoes" value="+" onclick='populaTela("+")'>
+            </p>
+            <p>
+                <input type="button" class="botao numero" value="." onclick='populaTela(".")'>
+                <input type="button" class="botao numero" value="0" onclick='populaTela("0")'>
+                <input type="button" class="botao operacoes" value="C" onclick='limpaTela("")'>
+                <input type="button" class="botao operacoes" value="=" onclick="calcula()">
+            </p>
+
+        </div>
+    </form>
+    <div class=fim>
+        Feito com <img class=iconefim src="file:///C:/Users/felip/Desktop/Projeto/Minha%20calculadora/img/corac%C3%A3o.png"> para você!
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+html {
+    background-image: linear-gradient(to right, #E0ECF8, #5882FA);
+}
+
+.calcbox {
+    box-shadow: 0px -5px 10px 1px black;
+    background-color: #DADADA;
+    height: 95px;
+    width: 200px;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-right: 5px solid #C9C9C9;
+    border-left: 5px solid #C9C9C9;
+    border-top: 5px solid #C9C9C9;
+    padding: 2px 57px;
+    padding-left: 5px;
+}
+
+.resultado {
+    background-color: #DCE6F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: right;
+    height: 42px;
+    width: 235px;
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 2px;
+    padding-top: 5px;
+    padding-right: 11px;
+}
+
+.icone {
+    width: 13px;
+    height: 14px;
+    border: 1px;
+    padding: 0px 0px;
+}
+
+.estrutura {
+    box-shadow: 0px 10px 10px 1px black;
+    background-color: #DADADA;
+    padding: 1px 0px;
+    border-top: none;
+    border-left: 5px solid #C9C9C9;
+    border-right: 5px solid #C9C9C9;
+    border-bottom: 5px solid #C9C9C9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    height: 315px;
+    width: 262px;
+    top: 80px;
+    left: 40%;
+}
+
+.botao {
+    font-weight: bolder;
+    font-size: 20px;
+    width: 43px;
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 14px;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+    background-color: black;
+    border: white 2px solid;
+}
+
+.botao[type="button"]:hover {
+    background: grey;
+}
+
+.teclas {
+    position: relative;
+    top: 4px;
+    width: 245px;
+    margin: 6px;
+}
+
+.botao.numero {
+    color: white;
+}
+
+.botao.operacoes {
+    color: white;
+}
+
+.botao.operacoes1 {
+    width: 43px;
+    height: 37;
+    margin-left: 197px;
+    color: white;
+}
+
+.fim {
+    color: gray;
+    padding-left: 70px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 20px;
+}
+
+.tela {
+    height: 40px;
+    width: 230px;
+    padding: 1px 1px;
+    border: 10px;
+    margin: -1px;
+    background-color: #DCE6F2;
+    text-align: right;
+    font-size: 30px;
+}
+
+.iconefim {
+    height: 11px;
+    width: 15px;
+    padding: 0px;
+}
+
+.fim {
+    color: gray;
+    padding-left: 10px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 165px;
+    height: 20px;
+}
