@@ -187,6 +187,7 @@ a {
     text-decoration: none;
     text-decoration-color: white;
     color: white;
+    margin-left: 50px;
     padding: 5px 1px;
     padding-left: 14px;
     padding-right: 14px;
@@ -209,13 +210,15 @@ a:hover {
 .parceiros {
     color: white;
     position: absolute;
-    width: 150px;
+    width: 170px;
     height: 30px;
     padding-right: 0px;
     padding-left: 20px;
     padding: 0px 10px;
     margin-top: 25px;
     margin-left: 80px;
+    margin-right: 80px;
     font-size: 20px;
     border-bottom: 2px groove #5882FA;
+    text-align: center;
 }
