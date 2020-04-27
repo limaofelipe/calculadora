@@ -8,5 +8,4 @@ function calcular() {
 
     //Aqui vc vai imprimir o resultado do calculo numa div com id="div_resposta"
     document.getElementById("display").innerHTML = imc.toFixed(1);
-
 }

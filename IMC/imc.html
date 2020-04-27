@@ -11,9 +11,9 @@
     <form>
         <div class=titulo>Calcule seu IMC</div>
         <div class='dados'>
-            <input type="number" placeholder='Digite aqui seu Peso' class=peso id=peso value="">
-            <input type="number" placeholder='Digite aqui sua altura' class=altura id=altura value="">
-            <input type="button" value="Calcular" class=calcular onclick="calcular()">
+            <input type="number" placeholder='Digite aqui seu Peso' class="peso" id="peso">
+            <input type="number" placeholder='Digite aqui sua altura' class="altura" id="altura">
+            <input type="button" value="Calcular" class="calcular" onclick="calcular()">
             <div class=tela id="display"></div>
         </div>
     </form>
@@ -21,7 +21,7 @@
     <form>
         <div class="resultado">Verifique seu resultado na Tabela abaixo</div>
 
-        <table class=tabela1>
+        <table class="tabela1">
             <tr>
                 <td class="titulotabela">IMC</td>
                 <td class="titulotabela">RESULTADO</td>
@@ -52,7 +52,19 @@
             </tr>
         </table>
     </form>
-    <script src='imc.js'></script>
+    <script src='js/imc.js'></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#peso').mask("000.0", {
+                reverse: true
+            });
+            $('#altura').mask("0.00", {
+                reverse: false
+            });
+        });
+    </script>
 </body>
 
 </html>
