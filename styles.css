@@ -77,6 +77,7 @@ html {
     border-top: 2px solid transparent;
     background-color: black;
     border: white 2px solid;
+    transition: 0.24s;
 }
 
 .botao[type="button"]:hover {
@@ -140,4 +141,81 @@ html {
     margin-right: auto;
     width: 165px;
     height: 20px;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0px;
+    width: 330px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px 0px;
+    border: 0px;
+    background: black;
+    left: -330px;
+    transition: .4s;
+}
+
+#sidebar.active {
+    left: 0px;
+    box-shadow: 10px 1px 55px -5px #5882FA;
+}
+
+#sidebar ul li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px 24px;
+}
+
+.botaoabrir {
+    position: absolute;
+    top: 20px;
+    left: 360px;
+}
+
+.botaoabrir span {
+    width: 45px;
+    height: 4px;
+    background: black;
+    display: block;
+    margin-top: 4px;
+}
+
+a {
+    font-family: monospace;
+    text-decoration: none;
+    text-decoration-color: white;
+    color: white;
+    padding: 5px 1px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 30px;
+    transition: 0.24s;
+}
+
+a:hover {
+    box-shadow: 0px 0px 10px 5px #5882FA;
+    border: 2px solid #00CED1;
+}
+
+.listalink {
+    width: 300px;
+    left: 1px;
+    margin-top: 74px;
+    padding: 1px;
+}
+
+.parceiros {
+    color: white;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    padding-right: 0px;
+    padding-left: 20px;
+    padding: 0px 10px;
+    margin-top: 25px;
+    margin-left: 80px;
+    font-size: 20px;
+    border-bottom: 2px groove #5882FA;
 }

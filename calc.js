@@ -13,3 +13,7 @@ function calcula() {
         limpaTela("Erro!");
     }
 }
+
+function mostrar() {
+    document.getElementById('sidebar').classList.toggle('active');
+}
